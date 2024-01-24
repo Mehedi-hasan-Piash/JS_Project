@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(20, 94, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.top-txt{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: floralwhite;
+}
+.container{
+    background: floralwhite;
+    box-shadow: 0 2px 3px 0 rgb(84, 241, 150);
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;  
+    flex-direction: column;  
+}
+.container p{
+    color: rgb(20, 94, 82);
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.inputContainer{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    color: rgb(0, 92, 46);
+}
+.inputContainer label{
+    font-size: larger;
+    color: rgb(20, 94, 82);
+    font-weight: bold;
+}
+.inputContainer input{
+    border:none;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgb(140, 145, 142);
+    padding:4px;
+    font-size: large;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
